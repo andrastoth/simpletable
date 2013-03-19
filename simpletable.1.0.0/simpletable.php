@@ -9,7 +9,7 @@ $link = mysql_connect("server", "user", "pass") or die (mysql_error());
 mysql_select_db("yourdb", $link); 
 
 if($order == 'dellrow') {
-  $sql = "DELETE FROM ".$table." WHERE ".$param['id']." = ".$param['idval'];
+	$sql = "DELETE FROM ".$table." WHERE ".$param['id']." = ".$param['idval'];
 	$res = mysql_query($sql, $link);
 	if($res === false) {
 		getError($sql);
