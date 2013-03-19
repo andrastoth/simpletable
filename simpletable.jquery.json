@@ -1,0 +1,34 @@
+{
+    "name": "simpletable",
+    "title": "jQuery simpleTable",
+    "description": "jQuery plugin for practical HTML table handling.",
+    "keywords": [
+        "table",
+        "handling"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Tóth András",
+        "url": "https://github.com/andrastoth/simpletable/blob/master/AUTHORS.txt"
+    },
+    "maintainers": [
+        {
+            "name": "Tóth András",
+            "email": "atandrastoth@gmail.com",
+            "url": "http://atandrastoth.co.uk"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/andrastoth/simpletable/issues",
+    "homepage": "https://github.com/andrastoth/simpletable",
+    "docs": "https://github.com/andrastoth/simpletable",
+    "download": "https://github.com/andrastoth/simpletable/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
