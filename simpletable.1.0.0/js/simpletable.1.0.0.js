@@ -52,7 +52,7 @@
         colgroup = colgroup + "</colgroup>";
         obj.prepend(colgroup);
         simpleTableWidth = obj.width();
-        simpleTableWidth = simpleTableWidth + simpleTableCellWidth.length * 10;
+        simpleTableWidth = simpleTableWidth + simpleTableCellWidth.length * 12;
         obj.wrapAll('<div class = "tableHolder">');
         heads = obj.children("thead").clone();
         obj.children("thead").css("display", "none");
@@ -203,7 +203,6 @@
           outerTableDiv.children("a")[0].innerHTML = "Total rows : " + myrows;
           outerTableDiv.children("a")[1].innerHTML = "Filtered rows : " + myfilterd;
         }
-
         function original() {
           tableHolder.find('a').remove();
           obj.off();
@@ -218,20 +217,17 @@
           obj.removeAttr("style");
           obj.children().children().removeClass();
         }
-
         function evenOdd() {
           obj.find("tbody tr").removeClass("even", "odd");
           obj.find("tbody tr:even").addClass("evenRow");
           obj.find("tbody tr:odd").addClass("oddRow");
         }
-
         function searcher(data) {
           obj.find("tbody tr").addClass("filtered");
           obj.find("tbody td").filter(function() {
             return $(this).text().toLowerCase().indexOf(data) != -1;
           }).closest("tr").removeClass("filtered");
         }
-
         function com(table, order, param) {
           var returnvalue;
           $.ajax({
@@ -239,7 +235,7 @@
             type: "POST",
             dataType: "json",
             data: {
-            async: false,
+              async: false,
               tablename: table,
               order: order,
               param: param
