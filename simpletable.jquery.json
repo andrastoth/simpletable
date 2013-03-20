@@ -29,6 +29,6 @@
     "docs": "https://github.com/andrastoth/simpletable",
     "download": "https://github.com/andrastoth/simpletable/archive/master.zip",
     "dependencies": {
-        "jquery": ">=1.5"
+        "jquery": ">=1.7"
     }
 }
