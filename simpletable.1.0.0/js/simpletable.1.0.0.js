@@ -1,5 +1,5 @@
 /*!
- * simplaTable v1.0.1 jQuery plugin
+ * simplaTable v1.0.0 jQuery plugin
  * http://atandrastoth.co.uk/webdesign/
  * Author : Tóth András
  * Copyright 2013 Tóth András
